@@ -11,7 +11,7 @@ services:
     image: efridman/gsd:swarm_1.0
     command: python app.py
     deploy:
-      replicas: 10
+      replicas: 8
     ports:
       - target: 8080
         published: 5001
